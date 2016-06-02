@@ -1,0 +1,47 @@
+2016-01-11 10:41:07,711 [1] INFO  Default - OVRAT tool started at : 11/01/2016 8:41:07 AM
+2016-01-11 10:44:34,667 [1] ERROR Default - Exception with Ticket ID (2016111104434667) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-11 10:44:34,761 [1] ERROR Default - Exception with Ticket ID (2016111104434761) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-11 10:45:54,988 [1] ERROR Default - Exception with Ticket ID (2016111104554988) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__14.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 245
+2016-01-11 11:48:47,679 [1] INFO  Default - OVRAT tool started at : 11/01/2016 9:48:47 AM
+2016-01-11 12:14:50,907 [1] INFO  Default - OVRAT tool started at : 11/01/2016 10:14:50 AM
+2016-01-11 12:37:04,046 [1] INFO  Default - OVRAT tool started at : 11/01/2016 10:37:04 AM
+2016-01-11 12:37:57,151 [1] INFO  Default - OVRAT tool started at : 11/01/2016 10:37:57 AM
+2016-01-11 12:53:14,576 [1] INFO  Default - OVRAT tool started at : 11/01/2016 10:53:14 AM
+2016-01-11 12:54:50,997 [1] INFO  Default - OVRAT tool started at : 11/01/2016 10:54:50 AM
+2016-01-11 12:56:04,817 [1] INFO  Default - OVRAT tool started at : 11/01/2016 10:56:04 AM
+2016-01-11 12:57:20,720 [1] INFO  Default - OVRAT tool started at : 11/01/2016 10:57:20 AM
+2016-01-11 13:08:09,347 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:08:09 AM
+2016-01-11 13:31:32,852 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:31:32 AM
+2016-01-11 13:45:32,042 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:45:32 AM
+2016-01-11 13:47:35,260 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:47:35 AM
+2016-01-11 13:47:59,142 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:47:59 AM
+2016-01-11 13:52:14,092 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:52:14 AM
+2016-01-11 13:57:30,081 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:57:30 AM
+2016-01-11 13:59:45,748 [1] INFO  Default - OVRAT tool started at : 11/01/2016 11:59:45 AM
+2016-01-11 14:00:11,252 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:00:11 PM
+2016-01-11 14:00:29,863 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:00:29 PM
+2016-01-11 14:00:53,471 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:00:53 PM
+2016-01-11 14:01:10,995 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:01:10 PM
+2016-01-11 14:03:47,756 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:03:47 PM
+2016-01-11 14:04:03,227 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:04:03 PM
+2016-01-11 14:04:20,644 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:04:20 PM
+2016-01-11 14:08:06,025 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:08:06 PM
+2016-01-11 14:09:08,980 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:09:08 PM
+2016-01-11 14:19:34,200 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:19:34 PM
+2016-01-11 14:20:09,487 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:20:09 PM
+2016-01-11 14:21:18,359 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:21:18 PM
+2016-01-11 14:26:20,924 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:26:20 PM
+2016-01-11 14:27:56,397 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:27:56 PM
+2016-01-11 14:28:42,476 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:28:42 PM
+2016-01-11 14:29:08,712 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:29:08 PM
+2016-01-11 14:29:31,501 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:29:31 PM
+2016-01-11 14:29:59,549 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:29:59 PM
+2016-01-11 14:30:26,455 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:30:26 PM
+2016-01-11 14:50:33,545 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:50:33 PM
+2016-01-11 14:52:37,872 [1] INFO  Default - OVRAT tool started at : 11/01/2016 12:52:37 PM

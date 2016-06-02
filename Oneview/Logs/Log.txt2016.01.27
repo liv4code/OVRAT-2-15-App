@@ -1,0 +1,24 @@
+2016-01-27 12:13:43,444 [1] INFO  Default - OVRAT tool started at : 27/01/2016 10:13:43 AM
+2016-01-27 18:53:24,303 [10] INFO  Default - OVRAT tool started at : 27/01/2016 4:53:24 PM
+2016-01-27 18:53:50,284 [9] INFO  Default - OVRAT tool started at : 27/01/2016 4:53:50 PM
+2016-01-27 19:06:54,010 [9] INFO  Default - OVRAT tool started at : 27/01/2016 5:06:54 PM
+2016-01-27 19:28:40,988 [1] INFO  Default - OVRAT tool started at : 27/01/2016 5:28:40 PM
+2016-01-27 19:30:11,507 [1] ERROR Default - Exception with Ticket ID (2016127193011506) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 174
+2016-01-27 19:30:11,510 [1] ERROR Default - Exception with Ticket ID (2016127193011510) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 174
+2016-01-27 19:33:11,453 [1] INFO  Default - OVRAT tool started at : 27/01/2016 5:33:11 PM
+2016-01-27 19:33:54,630 [1] ERROR Default - Exception with Ticket ID (2016127193354630) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 174
+2016-01-27 19:33:54,635 [1] ERROR Default - Exception with Ticket ID (2016127193354634) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 174
+2016-01-27 19:34:44,521 [1] INFO  Default - OVRAT tool started at : 27/01/2016 5:34:44 PM
+2016-01-27 19:36:37,582 [1] INFO  Default - OVRAT tool started at : 27/01/2016 5:36:37 PM
+2016-01-27 19:39:41,735 [1] INFO  Default - OVRAT tool started at : 27/01/2016 5:39:41 PM
+2016-01-27 19:41:18,591 [1] INFO  Default - OVRAT tool started at : 27/01/2016 5:41:18 PM
+2016-01-27 19:42:37,481 [1] INFO  Default - OVRAT tool started at : 27/01/2016 5:42:37 PM
+2016-01-27 19:46:12,080 [10] INFO  Default - OVRAT tool started at : 27/01/2016 5:46:12 PM

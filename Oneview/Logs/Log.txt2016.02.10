@@ -1,0 +1,8 @@
+2016-02-10 15:21:35,423 [9] INFO  Default - OVRAT tool started at : 10/02/2016 1:21:35 PM
+2016-02-10 15:29:33,034 [1] INFO  Default - OVRAT tool started at : 10/02/2016 1:29:33 PM
+2016-02-10 15:30:25,644 [1] ERROR Default - Exception with Ticket ID (2016210153025643) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-02-10 15:30:25,655 [1] ERROR Default - Exception with Ticket ID (2016210153025655) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175

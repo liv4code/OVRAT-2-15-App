@@ -1,0 +1,46 @@
+2016-01-10 10:03:30,800 [9] INFO  Default - OVRAT tool started at : 10/01/2016 8:03:30 AM
+2016-01-10 10:38:34,355 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:38:34 AM
+2016-01-10 10:43:49,015 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:43:49 AM
+2016-01-10 10:48:16,870 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:48:16 AM
+2016-01-10 10:49:46,827 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:49:46 AM
+2016-01-10 10:51:03,234 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:51:03 AM
+2016-01-10 10:52:46,390 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:52:46 AM
+2016-01-10 10:56:51,419 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:56:51 AM
+2016-01-10 10:58:11,888 [1] INFO  Default - OVRAT tool started at : 10/01/2016 8:58:11 AM
+2016-01-10 11:05:14,563 [1] ERROR Default - Exception with Ticket ID (201611011514563) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:05:14,573 [1] ERROR Default - Exception with Ticket ID (201611011514573) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:05:14,573 [1] ERROR Default - Exception with Ticket ID (201611011514573) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:05:14,575 [1] ERROR Default - Exception with Ticket ID (201611011514575) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:05:14,575 [1] ERROR Default - Exception with Ticket ID (201611011514575) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:07:51,623 [1] INFO  Default - OVRAT tool started at : 10/01/2016 9:07:51 AM
+2016-01-10 11:18:19,576 [1] ERROR Default - Exception with Ticket ID (2016110111819574) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:18:19,578 [1] ERROR Default - Exception with Ticket ID (2016110111819578) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:18:19,580 [1] ERROR Default - Exception with Ticket ID (2016110111819580) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:18:19,580 [1] ERROR Default - Exception with Ticket ID (2016110111819580) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:18:19,580 [1] ERROR Default - Exception with Ticket ID (2016110111819580) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:18:19,580 [1] ERROR Default - Exception with Ticket ID (2016110111819580) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131
+2016-01-10 11:18:19,580 [1] ERROR Default - Exception with Ticket ID (2016110111819580) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 131

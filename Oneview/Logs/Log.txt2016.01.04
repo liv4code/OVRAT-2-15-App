@@ -1,0 +1,59 @@
+2016-01-04 10:49:07,058 [1] INFO  Default - OVRAT tool started at : 04/01/2016 8:49:07 AM
+2016-01-04 11:20:35,622 [1] INFO  Default - OVRAT tool started at : 04/01/2016 9:20:35 AM
+2016-01-04 11:22:38,879 [10] INFO  Default - OVRAT tool started at : 04/01/2016 9:22:38 AM
+2016-01-04 11:55:15,084 [1] INFO  Default - OVRAT tool started at : 04/01/2016 9:55:15 AM
+2016-01-04 11:56:58,094 [10] INFO  Default - OVRAT tool started at : 04/01/2016 9:56:58 AM
+2016-01-04 12:15:14,455 [10] ERROR Default - Exception with Ticket ID (201614121514455) 
+System.IO.IOException: The process cannot access the file 'C:\Users\abbasmah\Desktop\aa.pdf' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Microsoft.Win32.SaveFileDialog.OpenFile()
+   at OVRAT_Project.ViewModel.DetailVM.ExportToPDF() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 92
+   at OVRAT_Project.ViewModel.DetailVM.<OnExportToPDF>b__5() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 70
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.DetailVM.<OnExportToPDF>d__7.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 68
+2016-01-04 12:27:01,070 [10] INFO  Default - OVRAT tool started at : 04/01/2016 10:27:01 AM
+2016-01-04 12:40:05,100 [9] INFO  Default - OVRAT tool started at : 04/01/2016 10:40:05 AM
+2016-01-04 13:31:28,256 [1] INFO  Default - OVRAT tool started at : 04/01/2016 11:31:28 AM
+2016-01-04 13:32:29,755 [1] INFO  Default - OVRAT tool started at : 04/01/2016 11:32:29 AM
+2016-01-04 13:34:18,910 [1] INFO  Default - OVRAT tool started at : 04/01/2016 11:34:18 AM
+2016-01-04 13:36:19,311 [1] INFO  Default - OVRAT tool started at : 04/01/2016 11:36:19 AM
+2016-01-04 13:36:29,950 [1] INFO  Default - OVRAT tool started at : 04/01/2016 11:36:29 AM
+2016-01-04 13:37:18,912 [1] INFO  Default - OVRAT tool started at : 04/01/2016 11:37:18 AM
+2016-01-04 13:42:54,288 [1] INFO  Default - OVRAT tool started at : 04/01/2016 11:42:54 AM
+2016-01-04 13:45:30,763 [10] INFO  Default - OVRAT tool started at : 04/01/2016 11:45:30 AM
+2016-01-04 14:07:15,552 [1] INFO  Default - OVRAT tool started at : 04/01/2016 12:07:15 PM
+2016-01-04 14:12:51,419 [1] INFO  Default - OVRAT tool started at : 04/01/2016 12:12:51 PM
+2016-01-04 14:13:14,629 [10] ERROR Default - Exception 
+System.Management.Automation.CmdletInvocationException: The process cannot access the file 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\OVfromVCBackup.log' because it is being used by another process. ---> System.IO.IOException: The process cannot access the file 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\OVfromVCBackup.log' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Management.Automation.PathUtils.MasterStreamOpen(PSCmdlet cmdlet, String filePath, Encoding resolvedEncoding, Boolean defaultEncoding, Boolean Append, Boolean Force, Boolean NoClobber, FileStream& fileStream, StreamWriter& streamWriter, FileInfo& readOnlyFileInfo, Boolean isLiteralPath)
+   --- End of inner exception stack trace ---
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2016-01-04 14:13:14,635 [10] ERROR Default - Exception 
+System.IO.IOException: The process cannot access the file 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\OVfromVCBackup.log' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Management.Automation.PathUtils.MasterStreamOpen(PSCmdlet cmdlet, String filePath, Encoding resolvedEncoding, Boolean defaultEncoding, Boolean Append, Boolean Force, Boolean NoClobber, FileStream& fileStream, StreamWriter& streamWriter, FileInfo& readOnlyFileInfo, Boolean isLiteralPath)
+2016-01-04 14:16:36,745 [1] INFO  Default - OVRAT tool started at : 04/01/2016 12:16:36 PM
+2016-01-04 14:27:28,460 [1] INFO  Default - OVRAT tool started at : 04/01/2016 12:27:28 PM
+2016-01-04 14:28:36,534 [10] INFO  Default - OVRAT tool started at : 04/01/2016 12:28:36 PM
+2016-01-04 14:30:36,094 [1] INFO  Default - OVRAT tool started at : 04/01/2016 12:30:36 PM
+2016-01-04 14:45:00,518 [1] INFO  Default - OVRAT tool started at : 04/01/2016 12:45:00 PM
+2016-01-04 14:52:37,824 [1] INFO  Default - OVRAT tool started at : 04/01/2016 12:52:37 PM
+2016-01-04 15:03:03,035 [1] INFO  Default - OVRAT tool started at : 04/01/2016 1:03:03 PM
+2016-01-04 15:11:13,035 [1] INFO  Default - OVRAT tool started at : 04/01/2016 1:11:13 PM
+2016-01-04 15:16:37,565 [1] INFO  Default - OVRAT tool started at : 04/01/2016 1:16:37 PM
+2016-01-04 15:49:45,290 [1] INFO  Default - OVRAT tool started at : 04/01/2016 1:49:45 PM

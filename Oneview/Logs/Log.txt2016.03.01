@@ -1,0 +1,69 @@
+2016-03-01 19:37:31,069 [1] INFO  Default - OVRAT tool started at : 3/2/2016 12:37:31 AM
+2016-03-01 20:11:46,771 [1] INFO  Default - OVRAT tool started at : 3/2/2016 1:11:46 AM
+2016-03-01 20:21:40,828 [4] ERROR Default - Exception 
+System.IO.InvalidDataException: The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+   at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at OVRAT_Project.Managers.PowerShellManager.DeGzip(String inFile, String outFile) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 100
+   at OVRAT_Project.Managers.PowerShellManager.DeCompress(String VceFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 145
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 52
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-03-01 20:21:41,010 [4] ERROR Default - Exception 
+System.IO.InvalidDataException: The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+   at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at OVRAT_Project.Managers.PowerShellManager.DeGzip(String inFile, String outFile) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 100
+   at OVRAT_Project.Managers.PowerShellManager.DeCompress(String VceFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 145
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 52
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-03-01 20:21:41,026 [4] ERROR Default - Exception 
+System.IO.InvalidDataException: The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+   at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at OVRAT_Project.Managers.PowerShellManager.DeGzip(String inFile, String outFile) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 100
+   at OVRAT_Project.Managers.PowerShellManager.DeCompress(String VceFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 145
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 52
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-03-01 20:33:53,348 [7] ERROR Default - Exception 
+System.IO.InvalidDataException: The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+   at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at OVRAT_Project.Managers.PowerShellManager.DeGzip(String inFile, String outFile) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 100
+   at OVRAT_Project.Managers.PowerShellManager.DeCompress(String VceFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 145
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 52
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-03-01 20:33:53,353 [7] ERROR Default - Exception 
+System.IO.InvalidDataException: The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+   at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at OVRAT_Project.Managers.PowerShellManager.DeGzip(String inFile, String outFile) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 100
+   at OVRAT_Project.Managers.PowerShellManager.DeCompress(String VceFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 145
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 52
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-03-01 20:33:53,358 [7] ERROR Default - Exception 
+System.IO.InvalidDataException: The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+   at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at OVRAT_Project.Managers.PowerShellManager.DeGzip(String inFile, String outFile) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 100
+   at OVRAT_Project.Managers.PowerShellManager.DeCompress(String VceFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 145
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 52
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-03-01 21:17:42,769 [1] INFO  Default - OVRAT tool started at : 3/2/2016 2:17:42 AM

@@ -1,0 +1,30 @@
+2016-02-14 11:44:23,254 [1] INFO  Default - OVRAT tool started at : 14/02/2016 9:44:23 AM
+2016-02-14 11:46:01,614 [1] INFO  Default - OVRAT tool started at : 14/02/2016 9:46:01 AM
+2016-02-14 11:59:46,137 [1] INFO  Default - OVRAT tool started at : 14/02/2016 9:59:46 AM
+2016-02-14 12:04:18,305 [1] INFO  Default - OVRAT tool started at : 14/02/2016 10:04:18 AM
+2016-02-14 12:09:32,925 [1] INFO  Default - OVRAT tool started at : 14/02/2016 10:09:32 AM
+2016-02-14 12:11:57,706 [1] INFO  Default - OVRAT tool started at : 14/02/2016 10:11:57 AM
+2016-02-14 12:14:06,358 [1] INFO  Default - OVRAT tool started at : 14/02/2016 10:14:06 AM
+2016-02-14 17:13:12,421 [1] INFO  Default - OVRAT tool started at : 14/02/2016 3:13:12 PM
+2016-02-14 18:02:45,965 [10] INFO  Default - OVRAT tool started at : 14/02/2016 4:02:45 PM
+2016-02-14 18:04:40,227 [9] INFO  Default - OVRAT tool started at : 14/02/2016 4:04:40 PM
+2016-02-14 18:21:35,353 [1] INFO  Default - OVRAT tool started at : 14/02/2016 4:21:35 PM
+2016-02-14 18:23:48,592 [4] ERROR Default - Exception 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at OVRAT_Project.Model.MapPSToEnclosure.MapPSObjectToMainObject(Hashtable BaseObject) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\MapPSToEnclosure.cs:line 79
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 77
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-02-14 18:32:49,456 [11] ERROR Default - Exception 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at OVRAT_Project.Model.MapPSToEnclosure.MapPSObjectToMainObject(Hashtable BaseObject) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\MapPSToEnclosure.cs:line 79
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 77
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 189
+2016-02-14 18:39:42,238 [1] INFO  Default - OVRAT tool started at : 14/02/2016 4:39:42 PM
+2016-02-14 18:45:59,590 [1] INFO  Default - OVRAT tool started at : 14/02/2016 4:45:59 PM
+2016-02-14 18:49:42,959 [1] INFO  Default - OVRAT tool started at : 14/02/2016 4:49:42 PM

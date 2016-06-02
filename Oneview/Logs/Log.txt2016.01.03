@@ -1,0 +1,59 @@
+2016-01-03 11:33:23,866 [1] INFO  Default - OVRAT tool started at : 03/01/2016 9:33:23 AM
+2016-01-03 11:34:47,717 [1] INFO  Default - OVRAT tool started at : 03/01/2016 9:34:47 AM
+2016-01-03 11:37:08,471 [1] INFO  Default - OVRAT tool started at : 03/01/2016 9:37:08 AM
+2016-01-03 11:37:37,328 [1] INFO  Default - OVRAT tool started at : 03/01/2016 9:37:37 AM
+2016-01-03 11:38:48,346 [1] INFO  Default - OVRAT tool started at : 03/01/2016 9:38:48 AM
+2016-01-03 13:42:23,964 [1] INFO  Default - OVRAT tool started at : 03/01/2016 11:42:23 AM
+2016-01-03 15:33:11,629 [1] ERROR Default - Exception with Ticket ID (201613153311628) 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at OVRAT_Project.ViewModel.DetailVM.GenerateReport(Enclosure enclosure) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 116
+   at OVRAT_Project.ViewModel.GaugesVM.<>c__DisplayClassd.<OnSelectCategory>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__f.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 142
+2016-01-03 15:33:15,037 [1] ERROR Default - Exception with Ticket ID (20161315331537) 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at OVRAT_Project.ViewModel.DetailVM.GenerateReport(Enclosure enclosure) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 116
+   at OVRAT_Project.ViewModel.GaugesVM.<>c__DisplayClassd.<OnSelectCategory>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__f.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 142
+2016-01-03 15:33:16,774 [1] ERROR Default - Exception with Ticket ID (201613153316774) 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at OVRAT_Project.ViewModel.DetailVM.GenerateReport(Enclosure enclosure) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 116
+   at OVRAT_Project.ViewModel.GaugesVM.<>c__DisplayClassd.<OnSelectCategory>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__f.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 142
+2016-01-03 15:35:10,708 [1] ERROR Default - Exception with Ticket ID (201613153510708) 
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   at OVRAT_Project.ViewModel.DetailVM.GenerateReport(Enclosure enclosure) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 116
+   at OVRAT_Project.ViewModel.GaugesVM.<>c__DisplayClassd.<OnSelectCategory>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__f.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 142
+2016-01-03 15:37:26,344 [9] INFO  Default - OVRAT tool started at : 03/01/2016 1:37:26 PM

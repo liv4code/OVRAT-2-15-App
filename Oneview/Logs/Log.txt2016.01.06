@@ -1,0 +1,166 @@
+2016-01-06 09:00:24,553 [9] INFO  Default - OVRAT tool started at : 06/01/2016 7:00:24 AM
+2016-01-06 09:48:23,766 [1] INFO  Default - OVRAT tool started at : 06/01/2016 7:48:23 AM
+2016-01-06 09:55:38,510 [1] INFO  Default - OVRAT tool started at : 06/01/2016 7:55:38 AM
+2016-01-06 10:02:48,402 [1] INFO  Default - OVRAT tool started at : 06/01/2016 8:02:48 AM
+2016-01-06 10:23:39,031 [1] INFO  Default - OVRAT tool started at : 06/01/2016 8:23:39 AM
+2016-01-06 10:26:16,036 [1] INFO  Default - OVRAT tool started at : 06/01/2016 8:26:16 AM
+2016-01-06 11:30:11,096 [9] INFO  Default - OVRAT tool started at : 06/01/2016 9:30:11 AM
+2016-01-06 11:48:24,147 [1] INFO  Default - OVRAT tool started at : 06/01/2016 9:48:24 AM
+2016-01-06 11:53:39,461 [1] INFO  Default - OVRAT tool started at : 06/01/2016 9:53:39 AM
+2016-01-06 11:56:15,333 [1] INFO  Default - OVRAT tool started at : 06/01/2016 9:56:15 AM
+2016-01-06 11:59:06,978 [1] INFO  Default - OVRAT tool started at : 06/01/2016 9:59:06 AM
+2016-01-06 11:59:17,703 [11] ERROR Default - Exception 
+System.IO.InvalidDataException: The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+   at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at OVRAT_Project.Managers.PowerShellManager.DeGzip(String inFile, String outFile) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 100
+   at OVRAT_Project.Managers.PowerShellManager.DeCompress(String VceFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 145
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 52
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2016-01-06 11:59:23,170 [1] INFO  Default - OVRAT tool started at : 06/01/2016 9:59:23 AM
+2016-01-06 12:27:52,620 [1] INFO  Default - OVRAT tool started at : 06/01/2016 10:27:52 AM
+2016-01-06 12:31:20,599 [1] INFO  Default - OVRAT tool started at : 06/01/2016 10:31:20 AM
+2016-01-06 12:31:34,958 [1] INFO  Default - OVRAT tool started at : 06/01/2016 10:31:34 AM
+2016-01-06 12:36:56,069 [10] INFO  Default - OVRAT tool started at : 06/01/2016 10:36:56 AM
+2016-01-06 12:50:12,752 [1] INFO  Default - OVRAT tool started at : 06/01/2016 10:50:12 AM
+2016-01-06 13:22:04,838 [1] INFO  Default - OVRAT tool started at : 06/01/2016 11:22:04 AM
+2016-01-06 13:36:28,386 [10] INFO  Default - OVRAT tool started at : 06/01/2016 11:36:28 AM
+2016-01-06 13:38:25,244 [9] INFO  Default - OVRAT tool started at : 06/01/2016 11:38:25 AM
+2016-01-06 13:39:31,200 [9] INFO  Default - OVRAT tool started at : 06/01/2016 11:39:31 AM
+2016-01-06 13:39:45,096 [9] INFO  Default - OVRAT tool started at : 06/01/2016 11:39:45 AM
+2016-01-06 13:52:44,835 [10] INFO  Default - OVRAT tool started at : 06/01/2016 11:52:44 AM
+2016-01-06 13:53:58,867 [8] INFO  Default - OVRAT tool started at : 06/01/2016 11:53:58 AM
+2016-01-06 14:02:38,240 [1] INFO  Default - OVRAT tool started at : 06/01/2016 12:02:38 PM
+2016-01-06 14:08:27,805 [1] INFO  Default - OVRAT tool started at : 06/01/2016 12:08:27 PM
+2016-01-06 14:31:44,749 [1] INFO  Default - OVRAT tool started at : 06/01/2016 12:31:44 PM
+2016-01-06 15:01:14,764 [10] INFO  Default - OVRAT tool started at : 06/01/2016 1:01:14 PM
+2016-01-06 15:09:49,053 [9] INFO  Default - OVRAT tool started at : 06/01/2016 1:09:49 PM
+2016-01-06 15:10:01,318 [6] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:10:30,345 [15] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:10:51,345 [1] INFO  Default - OVRAT tool started at : 06/01/2016 1:10:51 PM
+2016-01-06 15:10:59,485 [10] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:11:34,945 [8] INFO  Default - OVRAT tool started at : 06/01/2016 1:11:34 PM
+2016-01-06 15:11:44,572 [10] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:12:10,823 [1] INFO  Default - OVRAT tool started at : 06/01/2016 1:12:10 PM
+2016-01-06 15:12:20,071 [5] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:12:28,727 [8] INFO  Default - OVRAT tool started at : 06/01/2016 1:12:28 PM
+2016-01-06 15:12:39,438 [10] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:12:51,730 [10] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:15:00,030 [9] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:15:12,618 [9] ERROR Default - Exception 
+System.Management.Automation.ParseException: At C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\Resources\VCtoOVCompatibility_V2.ps1:32 char:7
++ Begin {
++       ~
+Missing closing '}' in statement block.
+
+
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 15:16:44,811 [9] INFO  Default - OVRAT tool started at : 06/01/2016 1:16:44 PM
+2016-01-06 15:33:55,032 [9] INFO  Default - OVRAT tool started at : 06/01/2016 1:33:55 PM
+2016-01-06 15:51:39,299 [6] ERROR Default - Exception 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at OVRAT_Project.Model.MapPSToEnclosure.MapPSObjectToMainObject(Hashtable BaseObject) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\MapPSToEnclosure.cs:line 57
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 77
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 16:24:32,611 [9] INFO  Default - OVRAT tool started at : 06/01/2016 2:24:32 PM
+2016-01-06 16:33:46,597 [1] INFO  Default - OVRAT tool started at : 06/01/2016 2:33:46 PM
+2016-01-06 16:42:24,159 [1] INFO  Default - OVRAT tool started at : 06/01/2016 2:42:24 PM
+2016-01-06 20:50:56,012 [9] INFO  Default - OVRAT tool started at : 06/01/2016 6:50:56 PM
+2016-01-06 21:09:13,978 [9] INFO  Default - OVRAT tool started at : 06/01/2016 7:09:13 PM
+2016-01-06 21:23:46,105 [10] INFO  Default - OVRAT tool started at : 06/01/2016 7:23:46 PM
+2016-01-06 21:38:11,618 [9] INFO  Default - OVRAT tool started at : 06/01/2016 7:38:11 PM
+2016-01-06 21:58:01,411 [9] INFO  Default - OVRAT tool started at : 06/01/2016 7:58:01 PM
+2016-01-06 22:13:09,118 [10] INFO  Default - OVRAT tool started at : 06/01/2016 8:13:09 PM
+2016-01-06 22:46:00,379 [10] INFO  Default - OVRAT tool started at : 06/01/2016 8:46:00 PM
+2016-01-06 22:58:31,418 [11] ERROR Default - Exception 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at OVRAT_Project.Model.MapPSToEnclosure.MapPSObjectToMainObject(Hashtable BaseObject) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\MapPSToEnclosure.cs:line 60
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 77
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-06 23:00:23,474 [9] INFO  Default - OVRAT tool started at : 06/01/2016 9:00:23 PM

@@ -1,0 +1,59 @@
+2015-12-30 12:32:23,405 [9] INFO  Default - OVRAT tool started at : 30/12/2015 10:32:23 AM
+2015-12-30 13:09:45,533 [1] INFO  Default - OVRAT tool started at : 30/12/2015 11:09:45 AM
+2015-12-30 13:26:56,922 [1] INFO  Default - OVRAT tool started at : 30/12/2015 11:26:56 AM
+2015-12-30 13:50:28,307 [1] INFO  Default - OVRAT tool started at : 30/12/2015 11:50:28 AM
+2015-12-30 14:10:11,668 [1] INFO  Default - OVRAT tool started at : 30/12/2015 12:10:11 PM
+2015-12-30 14:12:28,388 [1] ERROR Default - Exception with Ticket ID (20151230141228388) 
+System.IO.FileNotFoundException: Could not load file or assembly 'Telerik.Windows.Documents.Spreadsheet, Version=2015.2.623.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7' or one of its dependencies. The system cannot find the file specified.
+File name: 'Telerik.Windows.Documents.Spreadsheet, Version=2015.2.623.45, Culture=neutral, PublicKeyToken=5803cfa389c90ce7'
+   at Telerik.Windows.Controls.GridViewDataControlExportExtensions.ExportToXlsx(GridViewDataControl gridViewDataControl, Stream stream, GridViewDocumentExportOptions options)
+   at OVRAT_Project.View.Detail.Button_Click(Object sender, RoutedEventArgs e) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\View\Detail.xaml.cs:line 51
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs e)
+   at System.Windows.Controls.Primitives.ButtonBase.OnClick()
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.UIElement.OnMouseLeftButtonUpThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.UIElement.OnMouseUpThunk(Object sender, MouseButtonEventArgs e)
+   at System.Windows.Input.MouseButtonEventArgs.InvokeEventHandler(Delegate genericHandler, Object genericTarget)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseEvent(RoutedEventArgs args, Boolean trusted)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Input.InputManager.ProcessInput(InputEventArgs input)
+   at System.Windows.Input.InputProviderSite.ReportInput(InputReport inputReport)
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(Object source, Delegate method, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__f.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 150
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-12-30 14:42:05,455 [1] INFO  Default - OVRAT tool started at : 30/12/2015 12:42:05 PM
+2015-12-30 15:30:33,076 [9] INFO  Default - OVRAT tool started at : 30/12/2015 1:30:33 PM
+2015-12-30 15:51:26,831 [1] INFO  Default - OVRAT tool started at : 30/12/2015 1:51:26 PM

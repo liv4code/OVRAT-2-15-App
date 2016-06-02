@@ -1,0 +1,145 @@
+2016-01-30 16:51:00,661 [1] INFO  Default - OVRAT tool started at : 30/01/2016 2:51:00 PM
+2016-01-30 17:06:52,524 [1] INFO  Default - OVRAT tool started at : 30/01/2016 3:06:52 PM
+2016-01-30 17:27:54,752 [1] INFO  Default - OVRAT tool started at : 30/01/2016 3:27:54 PM
+2016-01-30 17:30:13,576 [1] INFO  Default - OVRAT tool started at : 30/01/2016 3:30:13 PM
+2016-01-30 17:44:27,201 [1] INFO  Default - OVRAT tool started at : 30/01/2016 3:44:27 PM
+2016-01-30 18:34:03,397 [1] INFO  Default - OVRAT tool started at : 30/01/2016 4:34:03 PM
+2016-01-30 18:36:41,585 [1] ERROR Default - Exception with Ticket ID (2016130183641584) 
+System.IO.IOException: The process cannot access the file 'C:\Users\abbasmah\Desktop\test pdf.pdf' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Microsoft.Win32.SaveFileDialog.OpenFile()
+   at OVRAT_Project.ViewModel.GaugesVM.ExportToPDF2() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 385
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToPDF>b__7() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 123
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToPDF>d__9.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 121
+2016-01-30 18:36:48,274 [1] ERROR Default - Exception with Ticket ID (2016130183648274) 
+System.IO.IOException: The process cannot access the file 'C:\Users\abbasmah\Desktop\test pdf.pdf' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Microsoft.Win32.SaveFileDialog.OpenFile()
+   at OVRAT_Project.ViewModel.GaugesVM.ExportToPDF2() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 385
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToPDF>b__7() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 123
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToPDF>d__9.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 121
+2016-01-30 18:49:18,561 [1] INFO  Default - OVRAT tool started at : 30/01/2016 4:49:18 PM
+2016-01-30 18:51:02,311 [1] ERROR Default - Exception with Ticket ID (201613018512310) 
+System.IO.IOException: The process cannot access the file 'C:\Users\abbasmah\Desktop\Test Excel.xls' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Microsoft.Win32.SaveFileDialog.OpenFile()
+   at OVRAT_Project.ViewModel.GaugesVM.ExportToExcel() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 182
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 146
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>d__e.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+2016-01-30 18:51:15,347 [1] ERROR Default - Exception with Ticket ID (2016130185115347) 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OVRAT_Project.Managers.ExcelManager.Generate(List`1 list, Stream stream) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\ExcelManager.cs:line 105
+   at OVRAT_Project.ViewModel.GaugesVM.ExportToExcel() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 185
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 146
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>d__e.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+2016-01-30 18:51:25,267 [1] ERROR Default - Exception with Ticket ID (2016130185125267) 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OVRAT_Project.Managers.ExcelManager.Generate(List`1 list, Stream stream) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\ExcelManager.cs:line 105
+   at OVRAT_Project.ViewModel.GaugesVM.ExportToExcel() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 185
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 146
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>d__e.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+2016-01-30 18:51:42,190 [1] ERROR Default - Exception with Ticket ID (2016130185142190) 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OVRAT_Project.Managers.ExcelManager.Generate(List`1 list, Stream stream) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\ExcelManager.cs:line 105
+   at OVRAT_Project.ViewModel.GaugesVM.ExportToExcel() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 185
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 146
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>d__e.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+2016-01-30 18:56:25,810 [1] ERROR Default - Exception with Ticket ID (2016130185625810) 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OVRAT_Project.Managers.ExcelManager.Generate(List`1 list, Stream stream) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\ExcelManager.cs:line 105
+   at OVRAT_Project.ViewModel.GaugesVM.ExportToExcel() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 185
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>b__c() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 146
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnExportToXLS>d__e.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 144
+2016-01-30 18:57:08,528 [1] INFO  Default - OVRAT tool started at : 30/01/2016 4:57:08 PM
+2016-01-30 19:03:48,575 [1] INFO  Default - OVRAT tool started at : 30/01/2016 5:03:48 PM
+2016-01-30 19:13:36,283 [1] ERROR Default - Exception with Ticket ID (2016130191336282) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-01-30 19:13:36,286 [1] ERROR Default - Exception with Ticket ID (2016130191336286) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-01-30 19:13:36,286 [1] ERROR Default - Exception with Ticket ID (2016130191336286) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-01-30 19:13:36,287 [1] ERROR Default - Exception with Ticket ID (2016130191336287) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-01-30 19:13:36,287 [1] ERROR Default - Exception with Ticket ID (2016130191336287) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-01-30 19:13:36,287 [1] ERROR Default - Exception with Ticket ID (2016130191336287) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-01-30 19:13:36,288 [1] ERROR Default - Exception with Ticket ID (2016130191336288) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 175
+2016-01-30 19:19:24,956 [1] INFO  Default - OVRAT tool started at : 30/01/2016 5:19:24 PM
+2016-01-30 19:24:40,999 [1] INFO  Default - OVRAT tool started at : 30/01/2016 5:24:40 PM
+2016-01-30 19:29:57,256 [9] INFO  Default - OVRAT tool started at : 30/01/2016 5:29:57 PM
+2016-01-30 19:45:21,441 [1] INFO  Default - OVRAT tool started at : 30/01/2016 5:45:21 PM
+2016-01-30 20:46:18,083 [1] INFO  Default - OVRAT tool started at : 30/01/2016 6:46:18 PM
+2016-01-30 20:47:59,484 [10] INFO  Default - OVRAT tool started at : 30/01/2016 6:47:59 PM
+2016-01-30 20:54:30,706 [10] INFO  Default - OVRAT tool started at : 30/01/2016 6:54:30 PM
+2016-01-30 21:07:21,959 [1] INFO  Default - OVRAT tool started at : 30/01/2016 7:07:21 PM
+2016-01-30 21:07:30,623 [10] INFO  Default - OVRAT tool started at : 30/01/2016 7:07:30 PM
+2016-01-30 21:22:13,038 [1] INFO  Default - OVRAT tool started at : 30/01/2016 7:22:13 PM

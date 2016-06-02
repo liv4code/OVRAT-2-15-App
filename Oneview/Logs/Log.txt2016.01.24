@@ -1,0 +1,592 @@
+2016-01-24 10:28:11,134 [1] INFO  Default - OVRAT tool started at : 24/01/2016 8:28:11 AM
+2016-01-24 10:30:29,030 [1] ERROR Default - Exception with Ticket ID (201612410302929) 
+System.Windows.Markup.XamlParseException: Provide value on 'System.Windows.Baml2006.TypeConverterMarkupExtension' threw an exception. ---> System.FormatException: '100%' string cannot be converted to Length.
+   at System.Windows.LengthConverter.FromString(String s, CultureInfo cultureInfo)
+   at System.Windows.LengthConverter.ConvertFrom(ITypeDescriptorContext typeDescriptorContext, CultureInfo cultureInfo, Object source)
+   at System.Windows.Baml2006.TypeConverterMarkupExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.GridViewRowPresenter.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Grid.MeasureCell(Int32 cell, Boolean forceInfinityV)
+   at System.Windows.Controls.Grid.MeasureCellsGroup(Int32 cellsHead, Size referenceSize, Boolean ignoreDesiredSizeU, Boolean forceInfinityV, Boolean& hasDesiredSizeUChanged)
+   at System.Windows.Controls.Grid.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureChild(IItemContainerGenerator& generator, IContainItemStorage& itemStorageProvider, IContainItemStorage& parentItemStorageProvider, Object& parentItem, Boolean& hasUniformOrAverageContainerSizeBeenSet, Double& computedUniformOrAverageContainerSize, Boolean& computedAreContainersUniformlySized, IList& items, Object& item, IList& children, Int32& childIndex, Boolean& visualOrderChanged, Boolean& isHorizontal, Size& childConstraint, Rect& viewport, VirtualizationCacheLength& cacheSize, VirtualizationCacheLengthUnit& cacheUnit, Boolean& foundFirstItemInViewport, Double& firstItemInViewportOffset, Size& stackPixelSize, Size& stackPixelSizeInViewport, Size& stackPixelSizeInCacheBeforeViewport, Size& stackPixelSizeInCacheAfterViewport, Size& stackLogicalSize, Size& stackLogicalSizeInViewport, Size& stackLogicalSizeInCacheBeforeViewport, Size& stackLogicalSizeInCacheAfterViewport, Boolean& mustDisableVirtualization, Boolean isBeforeFirstItem, Boolean isAfterFirstItem, Boolean isAfterLastItem, Boolean skipActualMeasure, Boolean skipGeneration, Boolean& hasBringIntoViewContainerBeenMeasured, Boolean& hasVirtualizingChildren)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverrideImpl(Size constraint, Nullable`1& lastPageSafeOffset, List`1& previouslyMeasuredOffsets, Boolean remeasure)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 209
+2016-01-24 10:30:29,125 [1] ERROR Default - Exception 
+System.FormatException: '100%' string cannot be converted to Length.
+   at System.Windows.LengthConverter.FromString(String s, CultureInfo cultureInfo)
+   at System.Windows.LengthConverter.ConvertFrom(ITypeDescriptorContext typeDescriptorContext, CultureInfo cultureInfo, Object source)
+   at System.Windows.Baml2006.TypeConverterMarkupExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+2016-01-24 10:31:45,634 [1] INFO  Default - OVRAT tool started at : 24/01/2016 8:31:45 AM
+2016-01-24 10:34:02,151 [1] ERROR Default - Exception with Ticket ID (201612410342150) 
+System.Windows.Markup.XamlParseException: Provide value on 'System.Windows.Baml2006.TypeConverterMarkupExtension' threw an exception. ---> System.FormatException: '100%' string cannot be converted to Length.
+   at System.Windows.LengthConverter.FromString(String s, CultureInfo cultureInfo)
+   at System.Windows.LengthConverter.ConvertFrom(ITypeDescriptorContext typeDescriptorContext, CultureInfo cultureInfo, Object source)
+   at System.Windows.Baml2006.TypeConverterMarkupExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.GridViewRowPresenter.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Grid.MeasureCell(Int32 cell, Boolean forceInfinityV)
+   at System.Windows.Controls.Grid.MeasureCellsGroup(Int32 cellsHead, Size referenceSize, Boolean ignoreDesiredSizeU, Boolean forceInfinityV, Boolean& hasDesiredSizeUChanged)
+   at System.Windows.Controls.Grid.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureChild(IItemContainerGenerator& generator, IContainItemStorage& itemStorageProvider, IContainItemStorage& parentItemStorageProvider, Object& parentItem, Boolean& hasUniformOrAverageContainerSizeBeenSet, Double& computedUniformOrAverageContainerSize, Boolean& computedAreContainersUniformlySized, IList& items, Object& item, IList& children, Int32& childIndex, Boolean& visualOrderChanged, Boolean& isHorizontal, Size& childConstraint, Rect& viewport, VirtualizationCacheLength& cacheSize, VirtualizationCacheLengthUnit& cacheUnit, Boolean& foundFirstItemInViewport, Double& firstItemInViewportOffset, Size& stackPixelSize, Size& stackPixelSizeInViewport, Size& stackPixelSizeInCacheBeforeViewport, Size& stackPixelSizeInCacheAfterViewport, Size& stackLogicalSize, Size& stackLogicalSizeInViewport, Size& stackLogicalSizeInCacheBeforeViewport, Size& stackLogicalSizeInCacheAfterViewport, Boolean& mustDisableVirtualization, Boolean isBeforeFirstItem, Boolean isAfterFirstItem, Boolean isAfterLastItem, Boolean skipActualMeasure, Boolean skipGeneration, Boolean& hasBringIntoViewContainerBeenMeasured, Boolean& hasVirtualizingChildren)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverrideImpl(Size constraint, Nullable`1& lastPageSafeOffset, List`1& previouslyMeasuredOffsets, Boolean remeasure)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 209
+2016-01-24 10:34:02,158 [1] ERROR Default - Exception 
+System.FormatException: '100%' string cannot be converted to Length.
+   at System.Windows.LengthConverter.FromString(String s, CultureInfo cultureInfo)
+   at System.Windows.LengthConverter.ConvertFrom(ITypeDescriptorContext typeDescriptorContext, CultureInfo cultureInfo, Object source)
+   at System.Windows.Baml2006.TypeConverterMarkupExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+2016-01-24 10:36:48,157 [1] INFO  Default - OVRAT tool started at : 24/01/2016 8:36:48 AM
+2016-01-24 10:53:22,051 [1] INFO  Default - OVRAT tool started at : 24/01/2016 8:53:22 AM
+2016-01-24 10:55:45,431 [1] ERROR Default - Exception with Ticket ID (2016124105545431) 
+System.Windows.Markup.XamlParseException: Provide value on 'System.Windows.Baml2006.TypeConverterMarkupExtension' threw an exception. ---> System.FormatException: '50*' string cannot be converted to Length.
+   at System.Windows.LengthConverter.FromString(String s, CultureInfo cultureInfo)
+   at System.Windows.LengthConverter.ConvertFrom(ITypeDescriptorContext typeDescriptorContext, CultureInfo cultureInfo, Object source)
+   at System.Windows.Baml2006.TypeConverterMarkupExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.GridViewRowPresenter.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Grid.MeasureCell(Int32 cell, Boolean forceInfinityV)
+   at System.Windows.Controls.Grid.MeasureCellsGroup(Int32 cellsHead, Size referenceSize, Boolean ignoreDesiredSizeU, Boolean forceInfinityV, Boolean& hasDesiredSizeUChanged)
+   at System.Windows.Controls.Grid.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureChild(IItemContainerGenerator& generator, IContainItemStorage& itemStorageProvider, IContainItemStorage& parentItemStorageProvider, Object& parentItem, Boolean& hasUniformOrAverageContainerSizeBeenSet, Double& computedUniformOrAverageContainerSize, Boolean& computedAreContainersUniformlySized, IList& items, Object& item, IList& children, Int32& childIndex, Boolean& visualOrderChanged, Boolean& isHorizontal, Size& childConstraint, Rect& viewport, VirtualizationCacheLength& cacheSize, VirtualizationCacheLengthUnit& cacheUnit, Boolean& foundFirstItemInViewport, Double& firstItemInViewportOffset, Size& stackPixelSize, Size& stackPixelSizeInViewport, Size& stackPixelSizeInCacheBeforeViewport, Size& stackPixelSizeInCacheAfterViewport, Size& stackLogicalSize, Size& stackLogicalSizeInViewport, Size& stackLogicalSizeInCacheBeforeViewport, Size& stackLogicalSizeInCacheAfterViewport, Boolean& mustDisableVirtualization, Boolean isBeforeFirstItem, Boolean isAfterFirstItem, Boolean isAfterLastItem, Boolean skipActualMeasure, Boolean skipGeneration, Boolean& hasBringIntoViewContainerBeenMeasured, Boolean& hasVirtualizingChildren)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverrideImpl(Size constraint, Nullable`1& lastPageSafeOffset, List`1& previouslyMeasuredOffsets, Boolean remeasure)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 209
+2016-01-24 10:55:45,439 [1] ERROR Default - Exception 
+System.FormatException: '50*' string cannot be converted to Length.
+   at System.Windows.LengthConverter.FromString(String s, CultureInfo cultureInfo)
+   at System.Windows.LengthConverter.ConvertFrom(ITypeDescriptorContext typeDescriptorContext, CultureInfo cultureInfo, Object source)
+   at System.Windows.Baml2006.TypeConverterMarkupExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+2016-01-24 10:56:05,260 [1] INFO  Default - OVRAT tool started at : 24/01/2016 8:56:05 AM
+2016-01-24 11:03:49,451 [1] INFO  Default - OVRAT tool started at : 24/01/2016 9:03:49 AM
+2016-01-24 11:07:19,893 [1] INFO  Default - OVRAT tool started at : 24/01/2016 9:07:19 AM
+2016-01-24 11:13:55,592 [1] INFO  Default - OVRAT tool started at : 24/01/2016 9:13:55 AM
+2016-01-24 11:41:22,583 [1] INFO  Default - OVRAT tool started at : 24/01/2016 9:41:22 AM
+2016-01-24 11:45:34,688 [1] INFO  Default - OVRAT tool started at : 24/01/2016 9:45:34 AM
+2016-01-24 11:50:57,454 [1] INFO  Default - OVRAT tool started at : 24/01/2016 9:50:57 AM
+2016-01-24 11:58:40,627 [1] INFO  Default - OVRAT tool started at : 24/01/2016 9:58:40 AM
+2016-01-24 12:05:26,762 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:05:26 AM
+2016-01-24 12:07:41,330 [1] ERROR Default - Exception with Ticket ID (201612412741329) 
+System.Windows.Markup.XamlParseException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'. ---> System.InvalidCastException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'.
+   at OVRAT_Project.Converters.StatusStringToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusStringToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.GridViewRowPresenter.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Grid.MeasureCell(Int32 cell, Boolean forceInfinityV)
+   at System.Windows.Controls.Grid.MeasureCellsGroup(Int32 cellsHead, Size referenceSize, Boolean ignoreDesiredSizeU, Boolean forceInfinityV, Boolean& hasDesiredSizeUChanged)
+   at System.Windows.Controls.Grid.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureChild(IItemContainerGenerator& generator, IContainItemStorage& itemStorageProvider, IContainItemStorage& parentItemStorageProvider, Object& parentItem, Boolean& hasUniformOrAverageContainerSizeBeenSet, Double& computedUniformOrAverageContainerSize, Boolean& computedAreContainersUniformlySized, IList& items, Object& item, IList& children, Int32& childIndex, Boolean& visualOrderChanged, Boolean& isHorizontal, Size& childConstraint, Rect& viewport, VirtualizationCacheLength& cacheSize, VirtualizationCacheLengthUnit& cacheUnit, Boolean& foundFirstItemInViewport, Double& firstItemInViewportOffset, Size& stackPixelSize, Size& stackPixelSizeInViewport, Size& stackPixelSizeInCacheBeforeViewport, Size& stackPixelSizeInCacheAfterViewport, Size& stackLogicalSize, Size& stackLogicalSizeInViewport, Size& stackLogicalSizeInCacheBeforeViewport, Size& stackLogicalSizeInCacheAfterViewport, Boolean& mustDisableVirtualization, Boolean isBeforeFirstItem, Boolean isAfterFirstItem, Boolean isAfterLastItem, Boolean skipActualMeasure, Boolean skipGeneration, Boolean& hasBringIntoViewContainerBeenMeasured, Boolean& hasVirtualizingChildren)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverrideImpl(Size constraint, Nullable`1& lastPageSafeOffset, List`1& previouslyMeasuredOffsets, Boolean remeasure)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 209
+2016-01-24 12:07:41,339 [1] ERROR Default - Exception 
+System.InvalidCastException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'.
+   at OVRAT_Project.Converters.StatusStringToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusStringToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+2016-01-24 12:08:09,078 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:08:09 AM
+2016-01-24 12:10:31,834 [1] ERROR Default - Exception with Ticket ID (2016124121031834) 
+System.Windows.Markup.XamlParseException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'. ---> System.InvalidCastException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'.
+   at OVRAT_Project.Converters.StatusStringToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusStringToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.GridViewRowPresenter.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Grid.MeasureCell(Int32 cell, Boolean forceInfinityV)
+   at System.Windows.Controls.Grid.MeasureCellsGroup(Int32 cellsHead, Size referenceSize, Boolean ignoreDesiredSizeU, Boolean forceInfinityV, Boolean& hasDesiredSizeUChanged)
+   at System.Windows.Controls.Grid.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureChild(IItemContainerGenerator& generator, IContainItemStorage& itemStorageProvider, IContainItemStorage& parentItemStorageProvider, Object& parentItem, Boolean& hasUniformOrAverageContainerSizeBeenSet, Double& computedUniformOrAverageContainerSize, Boolean& computedAreContainersUniformlySized, IList& items, Object& item, IList& children, Int32& childIndex, Boolean& visualOrderChanged, Boolean& isHorizontal, Size& childConstraint, Rect& viewport, VirtualizationCacheLength& cacheSize, VirtualizationCacheLengthUnit& cacheUnit, Boolean& foundFirstItemInViewport, Double& firstItemInViewportOffset, Size& stackPixelSize, Size& stackPixelSizeInViewport, Size& stackPixelSizeInCacheBeforeViewport, Size& stackPixelSizeInCacheAfterViewport, Size& stackLogicalSize, Size& stackLogicalSizeInViewport, Size& stackLogicalSizeInCacheBeforeViewport, Size& stackLogicalSizeInCacheAfterViewport, Boolean& mustDisableVirtualization, Boolean isBeforeFirstItem, Boolean isAfterFirstItem, Boolean isAfterLastItem, Boolean skipActualMeasure, Boolean skipGeneration, Boolean& hasBringIntoViewContainerBeenMeasured, Boolean& hasVirtualizingChildren)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverrideImpl(Size constraint, Nullable`1& lastPageSafeOffset, List`1& previouslyMeasuredOffsets, Boolean remeasure)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 209
+2016-01-24 12:10:31,842 [1] ERROR Default - Exception 
+System.InvalidCastException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'.
+   at OVRAT_Project.Converters.StatusStringToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusStringToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+2016-01-24 12:10:58,227 [10] INFO  Default - OVRAT tool started at : 24/01/2016 10:10:58 AM
+2016-01-24 12:21:24,825 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:21:24 AM
+2016-01-24 12:23:39,988 [1] ERROR Default - Exception with Ticket ID (2016124122339988) 
+System.Windows.Markup.XamlParseException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'. ---> System.InvalidCastException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'.
+   at OVRAT_Project.Converters.StatusStringToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusStringToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.GridViewRowPresenter.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Grid.MeasureCell(Int32 cell, Boolean forceInfinityV)
+   at System.Windows.Controls.Grid.MeasureCellsGroup(Int32 cellsHead, Size referenceSize, Boolean ignoreDesiredSizeU, Boolean forceInfinityV, Boolean& hasDesiredSizeUChanged)
+   at System.Windows.Controls.Grid.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureChild(IItemContainerGenerator& generator, IContainItemStorage& itemStorageProvider, IContainItemStorage& parentItemStorageProvider, Object& parentItem, Boolean& hasUniformOrAverageContainerSizeBeenSet, Double& computedUniformOrAverageContainerSize, Boolean& computedAreContainersUniformlySized, IList& items, Object& item, IList& children, Int32& childIndex, Boolean& visualOrderChanged, Boolean& isHorizontal, Size& childConstraint, Rect& viewport, VirtualizationCacheLength& cacheSize, VirtualizationCacheLengthUnit& cacheUnit, Boolean& foundFirstItemInViewport, Double& firstItemInViewportOffset, Size& stackPixelSize, Size& stackPixelSizeInViewport, Size& stackPixelSizeInCacheBeforeViewport, Size& stackPixelSizeInCacheAfterViewport, Size& stackLogicalSize, Size& stackLogicalSizeInViewport, Size& stackLogicalSizeInCacheBeforeViewport, Size& stackLogicalSizeInCacheAfterViewport, Boolean& mustDisableVirtualization, Boolean isBeforeFirstItem, Boolean isAfterFirstItem, Boolean isAfterLastItem, Boolean skipActualMeasure, Boolean skipGeneration, Boolean& hasBringIntoViewContainerBeenMeasured, Boolean& hasVirtualizingChildren)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverrideImpl(Size constraint, Nullable`1& lastPageSafeOffset, List`1& previouslyMeasuredOffsets, Boolean remeasure)
+   at System.Windows.Controls.VirtualizingStackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 209
+2016-01-24 12:23:39,997 [1] ERROR Default - Exception 
+System.InvalidCastException: Unable to cast object of type 'OVRAT_Project.Model.StatusEnum' to type 'System.String'.
+   at OVRAT_Project.Converters.StatusStringToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusStringToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+2016-01-24 12:24:19,057 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:24:19 AM
+2016-01-24 12:26:43,229 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:26:43 AM
+2016-01-24 12:29:03,335 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:29:03 AM
+2016-01-24 12:32:09,488 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:32:09 AM
+2016-01-24 12:37:23,492 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:37:23 AM
+2016-01-24 12:50:12,512 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:50:12 AM
+2016-01-24 12:54:03,640 [1] INFO  Default - OVRAT tool started at : 24/01/2016 10:54:03 AM
+2016-01-24 13:33:06,156 [1] INFO  Default - OVRAT tool started at : 24/01/2016 11:33:06 AM
+2016-01-24 13:55:54,342 [1] INFO  Default - OVRAT tool started at : 24/01/2016 11:55:54 AM
+2016-01-24 13:57:34,191 [1] INFO  Default - OVRAT tool started at : 24/01/2016 11:57:34 AM
+2016-01-24 14:03:18,901 [1] INFO  Default - OVRAT tool started at : 24/01/2016 12:03:18 PM
+2016-01-24 14:16:20,665 [1] INFO  Default - OVRAT tool started at : 24/01/2016 12:16:20 PM
+2016-01-24 14:21:52,529 [1] INFO  Default - OVRAT tool started at : 24/01/2016 12:21:52 PM
+2016-01-24 14:23:08,618 [1] ERROR Default - Exception with Ticket ID (201612414238617) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:23:08,621 [1] ERROR Default - Exception with Ticket ID (201612414238621) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:27:18,809 [10] INFO  Default - OVRAT tool started at : 24/01/2016 12:27:18 PM
+2016-01-24 14:32:35,612 [10] ERROR Default - Exception with Ticket ID (2016124143235611) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:34:06,366 [10] ERROR Default - Exception with Ticket ID (201612414346366) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:36:02,622 [1] INFO  Default - OVRAT tool started at : 24/01/2016 12:36:02 PM
+2016-01-24 14:36:19,066 [1] ERROR Default - Exception with Ticket ID (201612414361965) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:36:19,069 [1] ERROR Default - Exception with Ticket ID (201612414361969) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:37:49,176 [9] INFO  Default - OVRAT tool started at : 24/01/2016 12:37:49 PM
+2016-01-24 14:42:05,183 [9] ERROR Default - Exception with Ticket ID (201612414425182) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:42:06,115 [9] ERROR Default - Exception with Ticket ID (201612414426115) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:45:46,255 [1] INFO  Default - OVRAT tool started at : 24/01/2016 12:45:46 PM
+2016-01-24 14:55:44,059 [1] ERROR Default - Exception with Ticket ID (201612414554458) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:55:44,062 [1] ERROR Default - Exception with Ticket ID (201612414554462) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:55:44,062 [1] ERROR Default - Exception with Ticket ID (201612414554462) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:55:44,063 [1] ERROR Default - Exception with Ticket ID (201612414554463) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:55:44,063 [1] ERROR Default - Exception with Ticket ID (201612414554463) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:55:44,063 [1] ERROR Default - Exception with Ticket ID (201612414554463) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 14:55:44,063 [1] ERROR Default - Exception with Ticket ID (201612414554463) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:14:42,876 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:14:42 PM
+2016-01-24 15:15:09,705 [1] ERROR Default - Exception with Ticket ID (201612415159704) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:15:09,708 [1] ERROR Default - Exception with Ticket ID (201612415159708) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:37:55,828 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:37:55 PM
+2016-01-24 15:38:40,207 [1] ERROR Default - Exception with Ticket ID (2016124153840206) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:38:40,210 [1] ERROR Default - Exception with Ticket ID (2016124153840210) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:41:10,214 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:41:10 PM
+2016-01-24 15:41:53,161 [1] ERROR Default - Exception with Ticket ID (2016124154153160) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:41:53,164 [1] ERROR Default - Exception with Ticket ID (2016124154153164) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:43:09,006 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:43:09 PM
+2016-01-24 15:43:57,332 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:43:57 PM
+2016-01-24 15:45:24,791 [1] ERROR Default - Exception with Ticket ID (2016124154524791) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:45:24,795 [1] ERROR Default - Exception with Ticket ID (2016124154524795) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 135
+2016-01-24 15:49:18,426 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:49:18 PM
+2016-01-24 15:53:30,450 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:53:30 PM
+2016-01-24 15:59:49,687 [1] INFO  Default - OVRAT tool started at : 24/01/2016 1:59:49 PM
+2016-01-24 18:39:26,121 [1] INFO  Default - OVRAT tool started at : 24/01/2016 4:39:26 PM
+2016-01-24 18:44:10,010 [1] INFO  Default - OVRAT tool started at : 24/01/2016 4:44:09 PM
+2016-01-24 18:48:46,748 [1] INFO  Default - OVRAT tool started at : 24/01/2016 4:48:46 PM
+2016-01-24 18:53:07,294 [1] INFO  Default - OVRAT tool started at : 24/01/2016 4:53:07 PM
+2016-01-24 18:59:36,897 [1] INFO  Default - OVRAT tool started at : 24/01/2016 4:59:36 PM
+2016-01-24 19:06:59,680 [1] INFO  Default - OVRAT tool started at : 24/01/2016 5:06:59 PM
+2016-01-24 19:11:24,325 [1] INFO  Default - OVRAT tool started at : 24/01/2016 5:11:24 PM
+2016-01-24 19:13:09,528 [1] INFO  Default - OVRAT tool started at : 24/01/2016 5:13:09 PM
+2016-01-24 19:15:30,488 [1] INFO  Default - OVRAT tool started at : 24/01/2016 5:15:30 PM
+2016-01-24 19:20:21,170 [1] INFO  Default - OVRAT tool started at : 24/01/2016 5:20:21 PM
+2016-01-24 19:33:27,634 [1] ERROR Default - Exception with Ticket ID (2016124193327634) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:33:27,644 [1] ERROR Default - Exception with Ticket ID (2016124193327644) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:33:27,644 [1] ERROR Default - Exception with Ticket ID (2016124193327644) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:33:27,644 [1] ERROR Default - Exception with Ticket ID (2016124193327644) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:33:27,644 [1] ERROR Default - Exception with Ticket ID (2016124193327644) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:33:27,644 [1] ERROR Default - Exception with Ticket ID (2016124193327644) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:33:27,644 [1] ERROR Default - Exception with Ticket ID (2016124193327644) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:47:50,238 [1] INFO  Default - OVRAT tool started at : 24/01/2016 5:47:50 PM
+2016-01-24 19:57:45,253 [1] ERROR Default - Exception with Ticket ID (2016124195745252) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:57:45,256 [1] ERROR Default - Exception with Ticket ID (2016124195745256) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:57:45,256 [1] ERROR Default - Exception with Ticket ID (2016124195745256) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:57:45,257 [1] ERROR Default - Exception with Ticket ID (2016124195745257) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:57:45,257 [1] ERROR Default - Exception with Ticket ID (2016124195745257) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:57:45,257 [1] ERROR Default - Exception with Ticket ID (2016124195745257) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:57:45,257 [1] ERROR Default - Exception with Ticket ID (2016124195745257) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 168
+2016-01-24 19:59:28,930 [1] INFO  Default - OVRAT tool started at : 24/01/2016 5:59:28 PM
+2016-01-24 20:52:07,566 [1] INFO  Default - OVRAT tool started at : 24/01/2016 6:52:07 PM
+2016-01-24 20:56:29,106 [1] INFO  Default - OVRAT tool started at : 24/01/2016 6:56:29 PM

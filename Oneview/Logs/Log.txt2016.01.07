@@ -1,0 +1,304 @@
+2016-01-07 08:50:07,061 [11] ERROR Default - Exception 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at OVRAT_Project.Model.MapPSToEnclosure.MapPSObjectToMainObject(Hashtable BaseObject) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\MapPSToEnclosure.cs:line 60
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 77
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-07 08:52:04,935 [9] INFO  Default - OVRAT tool started at : 07/01/2016 6:52:04 AM
+2016-01-07 09:05:51,445 [11] ERROR Default - Exception 
+System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at OVRAT_Project.Model.MapPSToEnclosure.MapPSObjectToMainObject(Hashtable BaseObject) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\MapPSToEnclosure.cs:line 86
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 77
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 188
+2016-01-07 09:26:20,010 [10] INFO  Default - OVRAT tool started at : 07/01/2016 7:26:20 AM
+2016-01-07 10:12:35,917 [1] INFO  Default - OVRAT tool started at : 07/01/2016 8:12:35 AM
+2016-01-07 10:16:12,076 [1] INFO  Default - OVRAT tool started at : 07/01/2016 8:16:12 AM
+2016-01-07 10:17:20,986 [10] INFO  Default - OVRAT tool started at : 07/01/2016 8:17:20 AM
+2016-01-07 10:31:16,032 [8] INFO  Default - OVRAT tool started at : 07/01/2016 8:31:16 AM
+2016-01-07 10:43:50,169 [9] INFO  Default - OVRAT tool started at : 07/01/2016 8:43:50 AM
+2016-01-07 10:45:10,982 [8] INFO  Default - OVRAT tool started at : 07/01/2016 8:45:10 AM
+2016-01-07 11:04:11,989 [1] INFO  Default - OVRAT tool started at : 07/01/2016 9:04:11 AM
+2016-01-07 11:05:29,600 [10] INFO  Default - OVRAT tool started at : 07/01/2016 9:05:29 AM
+2016-01-07 11:07:02,234 [1] INFO  Default - OVRAT tool started at : 07/01/2016 9:07:02 AM
+2016-01-07 11:26:52,985 [1] INFO  Default - OVRAT tool started at : 07/01/2016 9:26:52 AM
+2016-01-07 11:28:10,806 [1] INFO  Default - OVRAT tool started at : 07/01/2016 9:28:10 AM
+2016-01-07 11:30:36,647 [10] INFO  Default - OVRAT tool started at : 07/01/2016 9:30:36 AM
+2016-01-07 11:45:13,398 [9] INFO  Default - OVRAT tool started at : 07/01/2016 9:45:13 AM
+2016-01-07 12:07:52,611 [9] INFO  Default - OVRAT tool started at : 07/01/2016 10:07:52 AM
+2016-01-07 12:22:33,360 [8] INFO  Default - OVRAT tool started at : 07/01/2016 10:22:33 AM
+2016-01-07 12:23:48,446 [1] INFO  Default - OVRAT tool started at : 07/01/2016 10:23:48 AM
+2016-01-07 12:32:13,144 [1] INFO  Default - OVRAT tool started at : 07/01/2016 10:32:13 AM
+2016-01-07 12:35:08,690 [1] INFO  Default - OVRAT tool started at : 07/01/2016 10:35:08 AM
+2016-01-07 12:40:38,684 [1] ERROR Default - Exception with Ticket ID (201617124038683) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 12:53:35,453 [1] INFO  Default - OVRAT tool started at : 07/01/2016 10:53:35 AM
+2016-01-07 13:00:09,901 [1] INFO  Default - OVRAT tool started at : 07/01/2016 11:00:09 AM
+2016-01-07 13:03:55,899 [1] INFO  Default - OVRAT tool started at : 07/01/2016 11:03:55 AM
+2016-01-07 13:15:15,632 [1] INFO  Default - OVRAT tool started at : 07/01/2016 11:15:15 AM
+2016-01-07 13:20:15,099 [10] INFO  Default - OVRAT tool started at : 07/01/2016 11:20:15 AM
+2016-01-07 13:25:45,566 [1] INFO  Default - OVRAT tool started at : 07/01/2016 11:25:45 AM
+2016-01-07 13:30:13,172 [1] INFO  Default - OVRAT tool started at : 07/01/2016 11:30:13 AM
+2016-01-07 13:40:49,336 [1] ERROR Default - Exception with Ticket ID (201617134049336) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 13:40:49,340 [1] ERROR Default - Exception with Ticket ID (201617134049340) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 13:40:49,340 [1] ERROR Default - Exception with Ticket ID (201617134049340) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 13:40:49,341 [1] ERROR Default - Exception with Ticket ID (201617134049341) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 13:54:26,862 [1] INFO  Default - OVRAT tool started at : 07/01/2016 11:54:26 AM
+2016-01-07 13:58:07,230 [1] ERROR Default - Exception with Ticket ID (20161713587229) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 14:01:37,163 [1] INFO  Default - OVRAT tool started at : 07/01/2016 12:01:37 PM
+2016-01-07 14:05:59,556 [1] ERROR Default - Exception with Ticket ID (20161714559555) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 14:05:59,559 [1] ERROR Default - Exception with Ticket ID (20161714559559) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 14:15:01,657 [10] INFO  Default - OVRAT tool started at : 07/01/2016 12:15:01 PM
+2016-01-07 14:37:11,711 [1] INFO  Default - OVRAT tool started at : 07/01/2016 12:37:11 PM
+2016-01-07 14:37:51,234 [1] INFO  Default - OVRAT tool started at : 07/01/2016 12:37:51 PM
+2016-01-07 14:44:12,419 [1] INFO  Default - OVRAT tool started at : 07/01/2016 12:44:12 PM
+2016-01-07 14:50:13,606 [1] ERROR Default - Exception with Ticket ID (201617145013604) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 14:50:13,612 [1] ERROR Default - Exception with Ticket ID (201617145013612) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 14:50:17,916 [1] ERROR Default - Exception with Ticket ID (201617145017916) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.ViewModel.DetailVM.GenerateReport(Enclosure enclosure) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\DetailVM.cs:line 187
+   at OVRAT_Project.ViewModel.GaugesVM.<>c__DisplayClass12.<OnSelectCategory>b__11() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 251
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__14.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 249
+2016-01-07 14:51:47,860 [1] INFO  Default - OVRAT tool started at : 07/01/2016 12:51:47 PM
+2016-01-07 15:03:20,021 [1] ERROR Default - Exception with Ticket ID (2016171532021) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 15:03:20,026 [1] ERROR Default - Exception with Ticket ID (2016171532026) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 15:03:20,027 [1] ERROR Default - Exception with Ticket ID (2016171532027) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 15:03:20,027 [1] ERROR Default - Exception with Ticket ID (2016171532027) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 123
+2016-01-07 15:05:56,896 [1] ERROR Default - Exception with Ticket ID (20161715556896) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__14.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 245
+2016-01-07 15:08:41,105 [1] ERROR Default - Exception with Ticket ID (20161715841105) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.ViewModel.GaugesVM.<OnSelectCategory>d__14.MoveNext() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 245
+2016-01-07 15:29:09,696 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:29:09 PM
+2016-01-07 15:30:20,717 [1] ERROR Default - Exception with Ticket ID (201617153020717) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:30:20,721 [1] ERROR Default - Exception with Ticket ID (201617153020721) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:31:30,065 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:31:30 PM
+2016-01-07 15:32:33,794 [1] ERROR Default - Exception with Ticket ID (201617153233793) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:32:33,797 [1] ERROR Default - Exception with Ticket ID (201617153233797) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:34:12,209 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:34:12 PM
+2016-01-07 15:37:30,481 [1] ERROR Default - Exception with Ticket ID (201617153730480) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:37:30,486 [1] ERROR Default - Exception with Ticket ID (201617153730486) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:37:55,444 [1] ERROR Default - Exception with Ticket ID (201617153755444) 
+System.Windows.Markup.XamlParseException: Specified cast is not valid. ---> System.InvalidCastException: Specified cast is not valid.
+   at OVRAT_Project.Converters.StatusToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.StackPanel.StackMeasureHelper(IStackMeasure measureElement, IStackMeasureScrollData scrollData, Size constraint)
+   at System.Windows.Controls.StackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 208
+2016-01-07 15:37:55,493 [1] ERROR Default - Exception 
+System.InvalidCastException: Specified cast is not valid.
+   at OVRAT_Project.Converters.StatusToImageConverter.Convert(Object value, Type targetType, Object parameter, CultureInfo culture) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Converters\StatusToImageConverter.cs:line 20
+   at System.Windows.Data.BindingExpression.TransferValue(Object newValue, Boolean isASubPropertyChange)
+   at System.Windows.Data.BindingExpression.Activate(Object item)
+   at System.Windows.Data.BindingExpression.AttachToContext(AttachAttempt attempt)
+   at System.Windows.Data.BindingExpression.AttachOverride(DependencyObject target, DependencyProperty dp)
+   at System.Windows.Data.BindingExpressionBase.OnAttach(DependencyObject d, DependencyProperty dp)
+   at System.Windows.StyleHelper.GetInstanceValue(UncommonField`1 dataField, DependencyObject container, FrameworkElement feChild, FrameworkContentElement fceChild, Int32 childIndex, DependencyProperty dp, Int32 i, EffectiveValueEntry& entry)
+   at System.Windows.FrameworkTemplate.ReceivePropertySet(Object targetObject, XamlMember member, Object value, DependencyObject templatedParent)
+   at System.Windows.FrameworkTemplate.<>c__DisplayClass6.<LoadOptimizedTemplateContent>b__4(Object sender, XamlSetValueEventArgs setArgs)
+   at System.Xaml.XamlObjectWriter.OnSetValue(Object eventSender, XamlMember member, Object value)
+   at System.Xaml.XamlObjectWriter.Logic_ApplyPropertyValue(ObjectWriterContext ctx, XamlMember prop, Object value, Boolean onParent)
+   at System.Xaml.XamlObjectWriter.Logic_DoAssignmentToParentProperty(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.Logic_AssignProvidedValue(ObjectWriterContext ctx)
+   at System.Xaml.XamlObjectWriter.WriteEndObject()
+   at System.Xaml.XamlWriter.WriteNode(XamlReader reader)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+2016-01-07 15:39:36,007 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:39:36 PM
+2016-01-07 15:40:27,391 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:40:27 PM
+2016-01-07 15:43:44,198 [1] ERROR Default - Exception with Ticket ID (201617154344197) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:43:44,202 [1] ERROR Default - Exception with Ticket ID (201617154344202) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:43:49,290 [1] ERROR Default - Exception with Ticket ID (201617154349290) 
+System.Windows.Markup.XamlParseException: Provide value on 'System.Windows.Markup.StaticResourceHolder' threw an exception. ---> System.Exception: Cannot find resource named 'StatusToImageConverter'. Resource names are case sensitive.
+   at System.Windows.StaticResourceExtension.ProvideValueInternal(IServiceProvider serviceProvider, Boolean allowDeferredReference)
+   at System.Windows.StaticResourceExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+   --- End of inner exception stack trace ---
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlReader templateReader, XamlObjectWriter currentWriter)
+   at System.Windows.FrameworkTemplate.LoadTemplateXaml(XamlObjectWriter objectWriter)
+   at System.Windows.FrameworkTemplate.LoadOptimizedTemplateContent(DependencyObject container, IComponentConnector componentConnector, IStyleConnector styleConnector, List`1 affectedChildren, UncommonField`1 templatedNonFeChildrenField)
+   at System.Windows.FrameworkTemplate.LoadContent(DependencyObject container, List`1 affectedChildren)
+   at System.Windows.StyleHelper.ApplyTemplateContent(UncommonField`1 dataField, DependencyObject container, FrameworkElementFactory templateRoot, Int32 lastChildIndex, HybridDictionary childIndexFromChildID, FrameworkTemplate frameworkTemplate)
+   at System.Windows.FrameworkTemplate.ApplyTemplateContent(UncommonField`1 templateDataField, FrameworkElement container)
+   at System.Windows.FrameworkElement.ApplyTemplate()
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Border.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.Control.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.Controls.StackPanel.StackMeasureHelper(IStackMeasure measureElement, IStackMeasureScrollData scrollData, Size constraint)
+   at System.Windows.Controls.StackPanel.MeasureOverride(Size constraint)
+   at System.Windows.FrameworkElement.MeasureCore(Size availableSize)
+   at System.Windows.UIElement.Measure(Size availableSize)
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.UIElement.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Interop.HwndSource.set_RootVisual(Visual value)
+   at System.Windows.Window.SetRootVisual()
+   at System.Windows.Window.SetRootVisualAndUpdateSTC()
+   at System.Windows.Window.SetupInitialState(Double requestedTop, Double requestedLeft, Double requestedWidth, Double requestedHeight)
+   at System.Windows.Window.CreateSourceWindow(Boolean duringShow)
+   at System.Windows.Window.CreateSourceWindowDuringShow()
+   at System.Windows.Window.SafeCreateWindowDuringShow()
+   at System.Windows.Window.ShowHelper(Object booleanBox)
+   at System.Windows.Window.Show()
+   at System.Windows.Window.ShowDialog()
+   at OVRAT_Project.ViewModel.GaugesVM.OnAsessment(Object arg) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\GaugesVM.cs:line 208
+2016-01-07 15:43:49,293 [1] ERROR Default - Exception 
+System.Exception: Cannot find resource named 'StatusToImageConverter'. Resource names are case sensitive.
+   at System.Windows.StaticResourceExtension.ProvideValueInternal(IServiceProvider serviceProvider, Boolean allowDeferredReference)
+   at System.Windows.StaticResourceExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+2016-01-07 15:44:05,242 [10] INFO  Default - OVRAT tool started at : 07/01/2016 1:44:05 PM
+2016-01-07 15:48:06,945 [9] INFO  Default - OVRAT tool started at : 07/01/2016 1:48:06 PM
+2016-01-07 15:48:19,989 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:48:19 PM
+2016-01-07 15:49:22,716 [1] ERROR Default - Exception with Ticket ID (201617154922715) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:49:22,719 [1] ERROR Default - Exception with Ticket ID (201617154922719) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 15:52:00,154 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:52:00 PM
+2016-01-07 15:56:51,388 [1] INFO  Default - OVRAT tool started at : 07/01/2016 1:56:51 PM
+2016-01-07 15:57:15,087 [10] INFO  Default - OVRAT tool started at : 07/01/2016 1:57:15 PM
+2016-01-07 16:08:30,707 [10] ERROR Default - Exception with Ticket ID (20161716830706) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:08:30,780 [10] ERROR Default - Exception with Ticket ID (20161716830780) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:17:26,663 [1] INFO  Default - OVRAT tool started at : 07/01/2016 2:17:26 PM
+2016-01-07 16:21:58,018 [1] ERROR Default - Exception with Ticket ID (20161716215817) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:21:58,022 [1] ERROR Default - Exception with Ticket ID (20161716215822) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:21:58,022 [1] ERROR Default - Exception with Ticket ID (20161716215822) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:24:13,455 [10] INFO  Default - OVRAT tool started at : 07/01/2016 2:24:13 PM
+2016-01-07 16:25:40,928 [9] INFO  Default - OVRAT tool started at : 07/01/2016 2:25:40 PM
+2016-01-07 16:37:06,440 [9] ERROR Default - Exception with Ticket ID (20161716376439) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:37:06,479 [9] ERROR Default - Exception with Ticket ID (20161716376479) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:42:23,366 [1] INFO  Default - OVRAT tool started at : 07/01/2016 2:42:23 PM
+2016-01-07 16:46:48,105 [1] ERROR Default - Exception with Ticket ID (201617164648104) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:46:48,108 [1] ERROR Default - Exception with Ticket ID (201617164648108) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:46:48,108 [1] ERROR Default - Exception with Ticket ID (201617164648108) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:52:23,472 [1] INFO  Default - OVRAT tool started at : 07/01/2016 2:52:23 PM
+2016-01-07 16:55:46,315 [1] ERROR Default - Exception with Ticket ID (201617165546314) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 16:55:46,318 [1] ERROR Default - Exception with Ticket ID (201617165546318) 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at OVRAT_Project.Model.Enclosure.CalculateIssueDetails() in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Model\Enclosure.cs:line 124
+2016-01-07 17:09:03,991 [1] INFO  Default - OVRAT tool started at : 07/01/2016 3:09:03 PM

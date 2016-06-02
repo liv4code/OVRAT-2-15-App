@@ -1,0 +1,40 @@
+2015-12-31 10:01:15,760 [1] INFO  Default - OVRAT tool started at : 31/12/2015 8:01:15 AM
+2015-12-31 10:01:44,821 [5] ERROR Default - Exception 
+System.Management.Automation.CommandNotFoundException: The term 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\\Resources\VCtoOVCompatibility.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 71
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2015-12-31 10:02:15,678 [3] ERROR Default - Exception 
+System.Management.Automation.CommandNotFoundException: The term 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\\Resources\VCtoOVCompatibility.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 71
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2015-12-31 10:06:48,349 [7] ERROR Default - Exception 
+System.Management.Automation.CommandNotFoundException: The term 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\\Resources\VCtoOVCompatibility.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 71
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2015-12-31 10:06:58,794 [7] ERROR Default - Exception 
+System.Management.Automation.CommandNotFoundException: The term 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\\Resources\VCtoOVCompatibility.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 71
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2015-12-31 10:07:48,726 [12] ERROR Default - Exception 
+System.Management.Automation.CommandNotFoundException: The term 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\\Resources\VCtoOVCompatibility.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 71
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2015-12-31 12:17:10,232 [1] INFO  Default - OVRAT tool started at : 31/12/2015 10:17:10 AM
+2015-12-31 12:17:22,774 [4] ERROR Default - Exception 
+System.Management.Automation.CommandNotFoundException: The term 'C:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\bin\Debug\\Resources\VCtoOVCompatibility_V2.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+   at System.Management.Automation.Runspaces.PipelineBase.Invoke(IEnumerable input)
+   at System.Management.Automation.Runspaces.Pipeline.Invoke()
+   at OVRAT_Project.Managers.PowerShellManager.AssessVCBackup(String backupFilePath) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\Managers\PowerShellManager.cs:line 72
+   at OVRAT_Project.ViewModel.MainVM.AssessVCBackups(String[] backupFilePaths, List`1& FailedBackupFiles) in c:\Ninja\OVRAT\OVRAT-Project\OVRAT-Project\ViewModel\MainVM.cs:line 161
+2015-12-31 12:21:23,870 [1] INFO  Default - OVRAT tool started at : 31/12/2015 10:21:23 AM
+2015-12-31 12:34:18,116 [10] INFO  Default - OVRAT tool started at : 31/12/2015 10:34:18 AM
